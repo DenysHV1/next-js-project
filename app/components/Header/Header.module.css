@@ -1,0 +1,32 @@
+.header {
+  background-color: rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px,
+    rgba(0, 0, 0, 0.8) -6px -2px 16px 0px;
+  padding: 20px;
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo{
+	font-weight: 600;
+	font-size: 24px;
+	color: white;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.nav > a {
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+}

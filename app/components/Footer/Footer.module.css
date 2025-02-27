@@ -1,0 +1,13 @@
+.footer {
+	background-color: rgb(0, 0, 0);
+	box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px,
+	  rgba(0, 0, 0, 0.8) -6px -2px 16px 0px;
+	padding: 20px;
+  }
+  
+  .footerInner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: wheat;
+  }
